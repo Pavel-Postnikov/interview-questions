@@ -3,84 +3,87 @@
   <span>JavaScript:</span>
 </h3>
 
-- [Типы данных в JavaScript?](https://youtu.be/ycYp7CYOnO0?t=471)
-- [Разница между `==` и `===` (нестрогое/строгое равенство)?](https://youtu.be/ycYp7CYOnO0?t=529)
-- [Что такое Strict mode в JavaScript?](https://youtu.be/ycYp7CYOnO0?t=577)
-- [Разница между function declaration и function expression?](https://youtu.be/ycYp7CYOnO0?t=632)
-- [Разница между `null` и `undefined`?](https://youtu.be/G7hLwudGWL4?t=511)
-- [Типы таймеров в JavaScript?](https://youtu.be/G7hLwudGWL4?t=690)
-- [Что такое поднятие (Hoisting)?](https://youtu.be/G7hLwudGWL4?t=552)
-- [Что такое область видимости (Scope)?](https://youtu.be/1eIRTdgzHtw?t=282)
-- [Разница между `var`, `let` и `const`?](https://youtu.be/1eIRTdgzHtw?t=362)
-- [Что такое замыкание (Closure)?](https://youtu.be/kx3dR6ztICU?t=284)
-- [Что обозначает `this` в JavaScript?](https://youtu.be/rlWgI7AvV18?t=507)
-- [Что такое функции высшего порядка (Higher Order Functions)?](https://youtu.be/1eIRTdgzHtw?t=426)
-- [Как превратить любой тип данных в булевый? Перечислите ложные значения в JS?](https://youtu.be/CjdCxxqObaM?t=368)
-- [Методы строк в JavaScript?](https://youtu.be/CjdCxxqObaM?t=415)
-- [Методы массивов в JavaScript?](https://youtu.be/CjdCxxqObaM?t=538)
-- [Что такое чистая функция?](https://youtu.be/rlWgI7AvV18?t=401)
-- [Разница между `.forEach()` и `.map()`?](https://youtu.be/rlWgI7AvV18?t=456)
-- [Разница между `.call()`, `.apply()` и `bind()`?](https://youtu.be/rlWgI7AvV18?t=548)
-- [Почему в JS функции называют объектами первого класса?](https://youtu.be/rlWgI7AvV18?t=624)
-- [Как определить наличие свойства в объекте?](https://youtu.be/kx3dR6ztICU?t=226)
-- [Что такое IIFE?](https://youtu.be/kx3dR6ztICU?t=396)
-- [Что такое псевдомассив `arguments`?](https://youtu.be/kx3dR6ztICU?t=442)
-- [Разница между host-объектами и нативными объектами?](https://youtu.be/kx3dR6ztICU?t=484)
-- [Почему результат сравнения 2х объектов это `false`?](https://youtu.be/IooJ3P2VUYs?t=100)
-- [Что такое прототипное наследование? Как создать объект без прототипа?](https://youtu.be/IooJ3P2VUYs?t=154)
-- [Почему расширение нативных JavaScript-объектов это плохая практика?](https://youtu.be/IooJ3P2VUYs?t=202)
-- [Что такое `NaN`? Как определить, что значение равно `NaN`?](https://youtu.be/IooJ3P2VUYs?t=266)
-- [Что такое объектная обертка (Wrapper Objects)?](https://youtu.be/w-vUj0gHGgg?t=26)
-- [Как в JavaScript создать объект?](https://youtu.be/w-vUj0gHGgg?t=83)
-- [Для чего используется ключевое слово `new`?](https://youtu.be/w-vUj0gHGgg?t=125)
-- [Операторы «И» и «ИЛИ» (`&&` и `||`)?](https://youtu.be/G7hLwudGWL4?t=617)
-- [Для чего используется оператор двойного отрицания (`!!`)?](https://youtu.be/G4iYlbilozM?t=26)
-- [Для чего используется оператор остатка (`%`)?](https://youtu.be/G4iYlbilozM?t=88)
-- [Как проверить, является ли значение массивом?](https://youtu.be/G4iYlbilozM?t=68)
-- [Как работает boxing/unboxing в JavaScript?](https://youtu.be/G4iYlbilozM?t=149)
-- [Что такое мемоизация? Реализуйте базовую логику функции для мемоизации?](https://youtu.be/nvktMVFM0_M?t=30)
-- [Разница между оператором `in` и методом `.hasOwnProperty()`?](https://youtu.be/nvktMVFM0_M?t=102)
-- [Разница между глубокой (deep) и поверхностной (shallow) копиями объекта? Как сделать каждую из них?](https://youtu.be/nvktMVFM0_M?t=125)
-- [Что такое цепочка вызовов функций (chaining)? Как реализовать такой подход?](https://youtu.be/nvktMVFM0_M?t=200)
-- [Что такое необъявленная переменная?](https://youtu.be/nvktMVFM0_M?t=236)
-- [Как передаются параметры в функцию: по ссылке или по значению?](https://youtu.be/nvktMVFM0_M?t=280)
-- [Что такое прототип объекта в JavaScript?](https://youtu.be/yvOXvZ8aEFo?t=287)
-- [Как работает метод `Object.create()`?](https://youtu.be/V-m0sQ-hW58?t=28)
-- [Разниц между `Object.freeze()` и `Object.seal()`?](https://youtu.be/xZLxdts7ZW4?t=374)
-- [Разница между методами `.slice()` и `.splice()`?](https://youtu.be/XtQPrt8G0n8?t=679)
-- [Как работают методы `.find()`, `.findIndex()` и `.indexOf()`?](https://youtu.be/xZLxdts7ZW4?t=488)
-- [Плюсы и минусы использования `use strict`?](https://youtu.be/xZLxdts7ZW4?t=549)
-- [Разница между методами `.push()`, `.pop()`, `.shift()` и `.unshift()`?](https://youtu.be/ngyOYuTrUk8?t=385)
-- [Плюсы и минусы иммутабельности? Как достичь иммутабельности в JS?](https://youtu.be/ngyOYuTrUk8?t=445)
-- [Типы всплывающих окон в JavaScript?](https://youtu.be/ngyOYuTrUk8?t=515)
-- [Типы объектов JavaScript?](https://youtu.be/ngyOYuTrUk8?t=595)
-- [Парадигмы программирования в JavaScript?](https://youtu.be/ngyOYuTrUk8?t=653)
-- [Типы ошибок в JavaScript?](https://youtu.be/ovV8GhIkzBE?t=754)
-- [Разница между `typeof` и `instanceof`?](https://youtu.be/ovV8GhIkzBE?t=835)
-- [JavaScript статически, или динамически типизированный язык?](https://youtu.be/V-m0sQ-hW58?t=98)
-- [Что такое регулярное выражение (Regular Expression)?](https://youtu.be/V-m0sQ-hW58?t=146)
-- [Что такое рекурсия?](https://youtu.be/V-m0sQ-hW58?t=220)
-- [Что такое прототип (Prototype) объекта?](https://youtu.be/V-m0sQ-hW58?t=290)
-- [Какие методы используются в регулярных выражениях?](https://youtu.be/XtQPrt8G0n8?t=495)
-- [Что такое полифил (polyfill)?](https://youtu.be/XtQPrt8G0n8?t=557)
-- [Что такое `switch/case`? Правила использования `switch/case`?](https://youtu.be/XtQPrt8G0n8?t=600)
-- [Типы функций по способности принимать другие функции?](https://youtu.be/XtQPrt8G0n8?t=726)
-- [Что такое выражения (expression) и инструкции (statement) в JavaScript?](https://youtu.be/VYQl2GhbCUs?t=706)
-- [Разница между `.some()` и `.every()`?](https://youtu.be/VYQl2GhbCUs?t=762)
-- [Как сгенерировать случайное число в JavaScript?](https://youtu.be/VYQl2GhbCUs?t=801)
-- [Типы операторов в JavaScript?](https://youtu.be/lZNWrW39ELM?t=30)
-- [Разница между параметром и аргументом функции?](https://youtu.be/lZNWrW39ELM?t=144)
-- [Правила задания имён для переменных и функций в JavaScript?](https://youtu.be/lZNWrW39ELM?t=173)
-- [Разница между явным и неявным преобразованием (Implicit and Explicit Coercion)?](https://youtu.be/lZNWrW39ELM?t=232)
-- [Для чего применяется метод `Array.from()`?](https://youtu.be/lZNWrW39ELM?t=328)
-- [Назовите способы преобразования массива в объект?](https://youtu.be/lZNWrW39ELM?t=389)
-- [Разница между `Object` и `Map`?](https://youtu.be/nbWY5W-9OEo?t=214)
-- [Что такое каррирование?](https://youtu.be/nbWY5W-9OEo?t=295)
-- [Для чего используются метод `Object.seal()`?](https://youtu.be/nbWY5W-9OEo?t=354)
-- [Для чего используется свойство `.dataset`?](https://youtu.be/3NGkctg4lsE?t=680)
-- [Каким образом можно обмениваться кодом между файлами?](https://youtu.be/3NGkctg4lsE?t=744)
-- [Как работает «сборщик мусора» в JavaScript?](https://youtu.be/trriSYNrHw4?t=786)
-- [Что такое утечки памяти?](https://youtu.be/3NGkctg4lsE?t=815)
-- [Назовите основные типы утечек памяти в JavaScript?](https://youtu.be/3NGkctg4lsE?t=874)
-- [Как работает контекст выполнения (execution context) в JavaScript?](https://youtu.be/nTE4qvSvxXY?t=704)
-- [Разница между примитивом и объектом?](https://youtu.be/nTE4qvSvxXY?t=791)
+
+---
+1. Типы данных в JavaScript?
+2. Разница между `==` и `===` (нестрогое/строгое равенство)?
+3. Что такое Strict mode в JavaScript?
+4. Разница между function declaration и function expression?
+5. Разница между `null` и `undefined`?
+6. Типы таймеров в JavaScript?
+7. Что такое поднятие (Hoisting)?
+8. Что такое область видимости (Scope)?
+9. Разница между `var`, `let` и `const`?
+10. Что такое замыкание (Closure)?
+11. Что обозначает `this` в JavaScript?
+12. Что такое функции высшего порядка (Higher Order Functions)?
+13. Как превратить любой тип данных в булевый? Перечислите ложные значения в JS?
+14. Методы строк в JavaScript?
+15. Методы массивов в JavaScript?
+16. Что такое чистая функция?
+17. Разница между `.forEach()` и `.map()`?
+18. Разница между `.call()`, `.apply()` и `bind()`?
+19. Почему в JS функции называют объектами первого класса?
+20. Как определить наличие свойства в объекте?
+21. Что такое IIFE?
+22. Что такое псевдомассив `arguments`?
+23. Разница между host-объектами и нативными объектами?
+24. Почему результат сравнения 2х объектов это `false`?
+25. Что такое прототипное наследование? Как создать объект без прототипа?
+26. Почему расширение нативных JavaScript-объектов это плохая практика?
+27. Что такое `NaN`? Как определить, что значение равно `NaN`?
+28. Что такое объектная обертка (Wrapper Objects)?
+29. Как в JavaScript создать объект?
+30. Для чего используется ключевое слово `new`?
+31. Операторы «И» и «ИЛИ» (`&&` и `||`)?
+32. Для чего используется оператор двойного отрицания (`!!`)?
+33. Для чего используется оператор остатка (`%`)?
+34. Как проверить, является ли значение массивом?
+35. Как работает boxing/unboxing в JavaScript?
+36. Что такое мемоизация? Реализуйте базовую логику функции для мемоизации?
+37. Разница между оператором `in` и методом `.hasOwnProperty()`?
+38. Разница между глубокой (deep) и поверхностной (shallow) копиями объекта? Как сделать каждую из них?
+39. Что такое цепочка вызовов функций (chaining)? Как реализовать такой подход?
+40. Что такое необъявленная переменная?
+41. Как передаются параметры в функцию: по ссылке или по значению?
+42. Что такое прототип объекта в JavaScript?
+43. Как работает метод `Object.create()`?
+44. Разниц между `Object.freeze()` и `Object.seal()`?
+45. Разница между методами `.slice()` и `.splice()`?
+46. Как работают методы `.find()`, `.findIndex()` и `.indexOf()`?
+47. Плюсы и минусы использования `use strict`?
+48. Разница между методами `.push()`, `.pop()`, `.shift()` и `.unshift()`?
+49. Плюсы и минусы иммутабельности? Как достичь иммутабельности в JS?
+50. Типы всплывающих окон в JavaScript?
+51. Типы объектов JavaScript?
+52. Парадигмы программирования в JavaScript?
+53. Типы ошибок в JavaScript?
+54. Разница между `typeof` и `instanceof`?
+55. JavaScript статически, или динамически типизированный язык?
+56. Что такое регулярное выражение (Regular Expression)?
+57. Что такое рекурсия?
+58. Что такое прототип (Prototype) объекта?
+59. Какие методы используются в регулярных выражениях?
+60. Что такое полифил (polyfill)?
+61. Что такое `switch/case`? Правила использования `switch/case`?
+62. Типы функций по способности принимать другие функции?
+63. Что такое выражения (expression) и инструкции (statement) в JavaScript?
+64. Разница между `.some()` и `.every()`?
+65. Как сгенерировать случайное число в JavaScript?
+66. Типы операторов в JavaScript?
+67. Разница между параметром и аргументом функции?
+68. Правила задания имён для переменных и функций в JavaScript?
+69. Разница между явным и неявным преобразованием (Implicit and Explicit Coercion)?
+70. Для чего применяется метод `Array.from()`?
+71. Назовите способы преобразования массива в объект?
+72. Разница между `Object` и `Map`?
+73. Что такое каррирование?
+74. Для чего используются метод `Object.seal()`?
+75. Для чего используется свойство `.dataset`?
+76. Каким образом можно обмениваться кодом между файлами?
+77. Как работает «сборщик мусора» в JavaScript?
+78. Что такое утечки памяти?
+79. Назовите основные типы утечек памяти в JavaScript?
+80. Как работает контекст выполнения (execution context) в JavaScript?
+81. Разница между примитивом и объектом?
+---
