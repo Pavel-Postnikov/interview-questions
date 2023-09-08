@@ -3,35 +3,37 @@
   <span>JS in Browser:</span>
 </h3>
 
-- [Что такое DOM?](https://youtu.be/1eIRTdgzHtw?t=471)
-- [Типы узлов DOM-дерева?](https://youtu.be/7TvS0iKR3_c?t=201)
-- [Методы поиска элементов в DOM?](https://youtu.be/CjdCxxqObaM?t=678)
-- [Свойства для перемещения по DOM-дереву?](https://youtu.be/7TvS0iKR3_c?t=245)
-- [Разница между attribute и property у DOM-элементов?](https://youtu.be/IooJ3P2VUYs?t=659)
-- [Что такое BOM?](https://youtu.be/XtQPrt8G0n8?t=448)
-- [Виды событий в JavaScript?](https://youtu.be/7TvS0iKR3_c?t=318)
-- [Как добавить обработчик события на DOM-элемент?](https://youtu.be/7TvS0iKR3_c?t=425)
-- [Как удалить обработчик события с DOM-элемента?](https://youtu.be/7TvS0iKR3_c?t=505)
-- [Что такое распространение события (Event Propagation)?](https://youtu.be/1eIRTdgzHtw?t=522)
-- [Что такое делегирование событий (Event Delegation)?](https://youtu.be/1eIRTdgzHtw?t=576)
-- [Как использовать media выражения в JavaScript?](https://youtu.be/3kvKFfPteFg?t=30)
-- [Расскажите про координаты в браузере?](https://youtu.be/70VnuTXi4Wk?t=644)
-- [Разница между HTMLCollection и NodeList?](https://youtu.be/IooJ3P2VUYs?t=705)
-- [Как динамически добавить элемент на HTML-страницу?](https://youtu.be/nvktMVFM0_M?t=551)
-- [Разница между feature detection, feature inference и анализом строки user-agent?](https://youtu.be/G4iYlbilozM?t=568)
-- [Разница между `e.preventDefault()` и `e.stopPropagation()`?](https://youtu.be/CjdCxxqObaM?t=650)
-- [Разница между `event.target` и `event.currentTarget`?](https://youtu.be/kx3dR6ztICU?t=539)
-- [Разница между `.stopPropagation()` и `.stopImmediatePropagation()`?](https://youtu.be/kx3dR6ztICU?t=580)
-- [Разница между событиями `load` и `DOMContentLoaded`?](https://youtu.be/kx3dR6ztICU?t=627)
-- [Сколько аргументов принимает `addEventListener`?](https://youtu.be/7TvS0iKR3_c?t=538)
-- [Разница между `innerHTML` и `outerHTML`?](https://youtu.be/xZLxdts7ZW4?t=621)
-- [Разница между `JSON` и `XML`?](https://youtu.be/XtQPrt8G0n8?t=28)
-- [Как узнать об использовании метода `event.preventDefault()`?](https://youtu.be/lZNWrW39ELM?t=443)
-- [Для чего используется свойство `window.navigator`?](https://youtu.be/lZNWrW39ELM?t=493)
-- [Для чего используется метод `.focus()`?](https://youtu.be/lZNWrW39ELM?t=551)
-- [Для чего используется свойство `.forms`?](https://youtu.be/lZNWrW39ELM?t=616)
-- [Для чего используется метод `.scrollIntoView()`?](https://youtu.be/lZNWrW39ELM?t=682)
-- [Разница между методами `.submit()` и `.requestSubmit()`?](https://youtu.be/3kvKFfPteFg?t=90)
-- [Расскажите о `IntersectionObserver`?](https://youtu.be/hL5yFo9Pms4?t=28)
-- [Расскажите о `URLSearchParams`?](https://youtu.be/hL5yFo9Pms4?t=98)
-- [Какие есть ограничения у `window.close()`?](https://youtu.be/hL5yFo9Pms4?t=149)
+---
+1. Что такое DOM?
+2. Типы узлов DOM-дерева?
+3. Методы поиска элементов в DOM?
+4. Свойства для перемещения по DOM-дереву?
+5. Разница между attribute и property у DOM-элементов?
+6. Что такое BOM?
+7. Виды событий в JavaScript?
+8. Как добавить обработчик события на DOM-элемент?
+9. Как удалить обработчик события с DOM-элемента?
+10. Что такое распространение события (Event Propagation)?
+11. Что такое делегирование событий (Event Delegation)?
+12. Как использовать media выражения в JavaScript?
+13. Расскажите про координаты в браузере?
+14. Разница между HTMLCollection и NodeList?
+15. Как динамически добавить элемент на HTML-страницу?
+16. Разница между feature detection, feature inference и анализом строки user-agent?
+17. Разница между `e.preventDefault()` и `e.stopPropagation()`?
+18. Разница между `event.target` и `event.currentTarget`?
+19. Разница между `.stopPropagation()` и `.stopImmediatePropagation()`?
+20. Разница между событиями `load` и `DOMContentLoaded`?
+21. Сколько аргументов принимает `addEventListener`?
+22. Разница между `innerHTML` и `outerHTML`?
+23. Разница между `JSON` и `XML`?
+24. Как узнать об использовании метода `event.preventDefault()`?
+25. Для чего используется свойство `window.navigator`?
+26. Для чего используется метод `.focus()`?
+27. Для чего используется свойство `.forms`?
+28. Для чего используется метод `.scrollIntoView()`?
+29. Разница между методами `.submit()` и `.requestSubmit()`?
+30. Расскажите о `IntersectionObserver`?
+31. Расскажите о `URLSearchParams`?
+32. Какие есть ограничения у `window.close()`?
+---

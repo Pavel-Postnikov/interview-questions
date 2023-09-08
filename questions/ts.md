@@ -3,31 +3,33 @@
   <span>TypeScript:</span>
 </h3>
 
-- [Что такое TypeScript?](https://youtu.be/R76_xPjzUd8?t=669)
-- [Основные компоненты TypeScript?](https://youtu.be/R76_xPjzUd8?t=730)
-- [Назовите особенности TypeScript?](https://youtu.be/R76_xPjzUd8?t=796)
-- [Плюсы использования TypeScript?](https://youtu.be/TOn-1RrowKE?t=529)
-- [Минусы использования TypeScript?](https://youtu.be/TOn-1RrowKE?t=613)
-- [Типы в TypeScript?](https://youtu.be/TOn-1RrowKE?t=391)
-- [Что такое декораторы?](https://youtu.be/TOn-1RrowKE?t=31)
-- [Поддерживает ли TypeScript перегрузку функций?](https://youtu.be/TOn-1RrowKE?t=77)
-- [Разница между типом (`type`) и интерфейсом (`interface`)?](https://youtu.be/TOn-1RrowKE?t=121)
-- [Что такое JSX в TypeScript? Какие режимы JSX поддерживает TypeScript?](https://youtu.be/TOn-1RrowKE?t=212)
-- [Что такое директивы с тремя наклонными чертами (Triple-Slash Directives), их типы?](https://youtu.be/TOn-1RrowKE?t=269)
-- [Что такое внешние объявления переменных (ambient declaration) в TypeScript?](https://youtu.be/TOn-1RrowKE?t=339)
-- [Разница между абстрактным классом (abstract class) и интерфейсом (interface)?](https://youtu.be/TOn-1RrowKE?t=436)
-- [Какие элементы ООП поддерживаются в TypeScript?](https://youtu.be/TOn-1RrowKE?t=688)
-- [Модификаторы доступа в TypeScript?](https://youtu.be/TOn-1RrowKE?t=749)
-- [Разница между внутренним (Internal Module) и внешним модулями (External Module)?](https://youtu.be/TOn-1RrowKE?t=807)
-- [Что такое декораторы в TypeScript?](https://youtu.be/VYQl2GhbCUs?t=29)
-- [Как TypeScript поддерживает необязательные и дефолтные параметры в функции?](https://youtu.be/VYQl2GhbCUs?t=102)
-- [Что такое перечисление (`enum`)?](https://youtu.be/VYQl2GhbCUs?t=168)
-- [Для чего в TypeScript используется `NoImplicitAny`?](https://youtu.be/54C3u9aCtoU?t=123)
-- [Разница между типами “Объединение” (`|`) и “Пересечение” (`&`)?](https://youtu.be/54C3u9aCtoU?t=193)
-- [Что такое общие типы (`generic`) в TypeScript?](https://youtu.be/OMQzqLyINnI?t=29)
-- [Какие области видимости доступны в TypeScript?](https://youtu.be/OMQzqLyINnI?t=101)
-- [Что такое `.map` файл, как и зачем его использовать?](https://youtu.be/OMQzqLyINnI?t=146)
-- [Можно ли использовать TypeScript в серверной разработке?](https://youtu.be/OMQzqLyINnI?t=199)
-- [Для чего в TypeScript используют ключевое слово `declare`?](https://youtu.be/OMQzqLyINnI?t=281)
-- [Разница между типами `void`, `never` и `unknown`?](https://youtu.be/__neFkxAO9s?t=883)
-- [Как вы отлавливаете ошибки в TypeScript коде?](https://youtu.be/DQ0BLu6rZYc?t=802)
+---
+1. Что такое TypeScript?
+2. Основные компоненты TypeScript?
+3. Назовите особенности TypeScript?
+4. Плюсы использования TypeScript?
+5. Минусы использования TypeScript?
+6. Типы в TypeScript?
+7. Что такое декораторы?
+8. Поддерживает ли TypeScript перегрузку функций?
+9. Разница между типом (`type`) и интерфейсом (`interface`)?
+10. Что такое JSX в TypeScript? Какие режимы JSX поддерживает TypeScript?
+11. Что такое директивы с тремя наклонными чертами (Triple-Slash Directives), их типы?
+12. Что такое внешние объявления переменных (ambient declaration) в TypeScript?
+13. Разница между абстрактным классом (abstract class) и интерфейсом (interface)?
+14. Какие элементы ООП поддерживаются в TypeScript?
+15. Модификаторы доступа в TypeScript?
+16. Разница между внутренним (Internal Module) и внешним модулями (External Module)?
+17. Что такое декораторы в TypeScript?
+18. Как TypeScript поддерживает необязательные и дефолтные параметры в функции?
+19. Что такое перечисление (`enum`)?
+20. Для чего в TypeScript используется `NoImplicitAny`?
+21. Разница между типами “Объединение” (`|`) и “Пересечение” (`&`)?
+22. Что такое общие типы (`generic`) в TypeScript?
+23. Какие области видимости доступны в TypeScript?
+24. Что такое `.map` файл, как и зачем его использовать?
+25. Можно ли использовать TypeScript в серверной разработке?
+26. Для чего в TypeScript используют ключевое слово `declare`?
+27. Разница между типами `void`, `never` и `unknown`?
+28. Как вы отлавливаете ошибки в TypeScript коде?
+---

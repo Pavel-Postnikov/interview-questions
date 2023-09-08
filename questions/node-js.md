@@ -3,21 +3,23 @@
   <span>Node.js:</span>
 </h3>
 
-- [Что такое Node.js?](https://youtu.be/ad34hPJ273k?t=697)
-- [Разница между Node.js и JavaScript?](https://youtu.be/ad34hPJ273k?t=746)
-- [Когда следует использовать Node.js?](https://youtu.be/ad34hPJ273k?t=815)
-- [Плюсы Node.js?](https://youtu.be/b-jHHEBj7KM?t=264)
-- [Что такое цикл событий (event loop)?](https://youtu.be/b-jHHEBj7KM?t=307)
-- [Разница между асинхронной и неблокирующей функциями?](https://youtu.be/b-jHHEBj7KM?t=375)
-- [Преимущества однопоточного веб-сервера по сравнению с многопоточным?](https://youtu.be/b-jHHEBj7KM?t=435)
-- [Что такое поток (stream)? Типы потоков в Node.js?](https://youtu.be/b-jHHEBj7KM?t=516)
-- [Разница между `createReadStream` и `readFile`?](https://youtu.be/b-jHHEBj7KM?t=602)
-- [Что такое REPL в Node.js?](https://youtu.be/b-jHHEBj7KM?t=660)
-- [Что такое Continuation-passing Style (CPS)?](https://youtu.be/b-jHHEBj7KM?t=707)
-- [Как избежать Callback Hell?](https://youtu.be/b-jHHEBj7KM?t=746)
-- [Что такое модуль Cluster?](https://youtu.be/b-jHHEBj7KM?t=842)
-- [Почему использование блокирующих, или синхронных операций является плохой практикой в Node.js?](https://youtu.be/R76_xPjzUd8?t=390)
-- [Что такое `npm`?](https://youtu.be/R76_xPjzUd8?t=447)
-- [Разница между `module.exports` и `exports`?](https://youtu.be/R76_xPjzUd8?t=505)
-- [Почему в модулях переменные верхнего уровня не являются глобальными?](https://youtu.be/R76_xPjzUd8?t=554)
-- [Что такое циклические зависимости модулей в Node?](https://youtu.be/R76_xPjzUd8?t=611)
+---
+1. Что такое Node.js?
+2. Разница между Node.js и JavaScript?
+3. Когда следует использовать Node.js?
+4. Плюсы Node.js?
+5. Что такое цикл событий (event loop)?
+6. Разница между асинхронной и неблокирующей функциями?
+7. Преимущества однопоточного веб-сервера по сравнению с многопоточным?
+8. Что такое поток (stream)? Типы потоков в Node.js?
+9. Разница между `createReadStream` и `readFile`?
+10. Что такое REPL в Node.js?
+11. Что такое Continuation-passing Style (CPS)?
+12. Как избежать Callback Hell?
+13. Что такое модуль Cluster?
+14. Почему использование блокирующих, или синхронных операций является плохой практикой в Node.js?
+15. Что такое `npm`?
+16. Разница между `module.exports` и `exports`?
+17. Почему в модулях переменные верхнего уровня не являются глобальными?
+18. Что такое циклические зависимости модулей в Node?
+---
