@@ -4,9 +4,28 @@
 </h3>
 
 ---
-1. Что такое HTML и для чего он используется?
-2. Какие глобальные атрибуты есть в HTML?
-3. Что такое категории контента в HTML5?
+<details><summary>Что такое HTML и для чего он используется?</summary>
+
+[Краткий ответ](https://youtu.be/CjdCxxqObaM?t=39)
+
+[Основы HTML](https://developer.mozilla.org/ru/docs/Learn/Getting_started_with_the_web/HTML_basics)
+
+</details>
+
+<details><summary>Какие глобальные атрибуты есть в HTML?</summary>
+
+Тест
+
+</details>
+
+<details><summary>Что такое категории контента в HTML5?</summary>
+
+Тест
+
+</details>
+   
+
+
 4. Какие категории считаются основными категориями контента?
 5. Что такое doctype? И для чего он используется?
 6. Опишите базовую структуру HTML-страницы?
