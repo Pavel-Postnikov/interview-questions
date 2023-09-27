@@ -529,4 +529,84 @@ TypeScript назначит переменной myLibrary тип any. Проб�
 
 https://medium.com/nuances-of-programming/%D0%BF%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%81%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F-%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0-%D0%BE%D1%88%D0%B8%D0%B1%D0%BE%D0%BA-%D0%B2-typescript-c2e187a4efb5
 </details>
+
+<details><summary><b>Миксины</b></summary>
+
+В TypeScript нельзя наследовать или расширять более одного класса, но миксины позволяют обойти это ограничение.
+
+Миксины создают разделяемые классы, которые можно объединять и, таким образом, формировать единый класс, содержащий все методы и свойства.
+
+[Миксин] - это функция, которая
+- берет конструктор
+- создает класс, расширяющий этот конструктор новыми функциями
+- возвращает новый класс
+
+Подробный пример:
+
+    // Требуется для всех миксинов
+    type Constructor<T = {}> = new (...args: any[]) => T;
+    
+    ////////////////////
+    // Примеры миксинов
+    ////////////////////
+    
+    // Миксин, который добавляет свойство
+    function Timestamped<TBase extends Constructor>(
+      Base: TBase
+    ) {
+      return class extends Base {
+        timestamp = Date.now();
+      };
+    }
+    
+    // миксин, который добавляет свойство и методы
+    function Activatable<TBase extends Constructor>(
+      Base: TBase
+    ) {
+      return class extends Base {
+        isActivated = false;
+    
+        activate() {
+          this.isActivated = true;
+        }
+    
+        deactivate() {
+          this.isActivated = false;
+        }
+      };
+    }
+    
+    ////////////////////
+    // Использование для создания классов
+    ////////////////////
+    
+    // Простой класс
+    class User {
+      name = '';
+    }
+    
+    // Пользователь с отметкой времени
+    const TimestampedUser = Timestamped(User);
+    
+    // Пользователь с отметкой времени и доступный для активации
+    const TimestampedActivatableUser = Timestamped(
+      Activatable(User)
+    );
+    
+    ////////////////////
+    // Использование созданных классов
+    ////////////////////
+    
+    const timestampedUserExample = new TimestampedUser();
+    console.log(timestampedUserExample.timestamp);
+    
+    const timestampedActivatableUserExample = new TimestampedActivatableUser();
+    console.log(timestampedActivatableUserExample.timestamp);
+    console.log(timestampedActivatableUserExample.isActivated);
+    https://scriptdev.ru/book/types/mixins/
+    
+</details>
+
+https://github.com/FedorovAlexander/typescript-interview-questions-ru/blob/main/README.md
+
 ---
